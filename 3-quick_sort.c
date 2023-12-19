@@ -71,4 +71,3 @@ void quick_recursive_sort(int *array, int low, int high, size_t size)
         quick_recursive_sort(array, pivot + 1, high, size);
     }
 }
-
